@@ -1,0 +1,50 @@
+        -:    0:Source:triangle.cpp
+        -:    0:Graph:triangle.gcno
+        -:    0:Data:triangle.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/*
+        -:    2: *  triangle.cpp
+        -:    3: */
+        -:    4:
+        -:    5:#include "triangle.h"
+        -:    6:
+    #####:    7:Triangle::Triangle()
+        -:    8:{
+    #####:    9:    side1 = 0;
+    #####:   10:    side2 = 0;
+    #####:   11:    side3 = 0;
+    #####:   12:}
+        -:   13:
+        4:   14:Triangle::Triangle(int a, int b, int c)
+        -:   15:{ 
+        4:   16:    side1 = a; 
+        4:   17:    side2 = b; 
+        4:   18:    side3 = c;
+        4:   19:}
+        -:   20:
+        4:   21:bool Triangle::triangle()
+        -:   22:{
+        4:   23:    if ( (side1 < side2 + side3) && (side2 < side1 + side3) && (side3 < side1 + side2) )
+        3:   24:        return true;       // Sides may form a triangle
+        -:   25:    else
+        1:   26:        return false;       // Sides cannot form a triangle
+        -:   27:}
+        -:   28:
+        3:   29:TriangleType Triangle::type()
+        -:   30:{
+        -:   31:    // Assumes ( (side1 < side2 + side3) && (side2 < side1 + side3) && (side3 < side1 + side2) )
+        -:   32:
+        -:   33:    // Assuming the triplet [side1, side2, side3] forms a
+        -:   34:    // triangle, determine type of triangle formed
+        -:   35:
+        3:   36:    if ( (side1 == side2) && (side2 == side3) )
+        1:   37:        return EQUILATERAL;       // Equilateral triangle
+        2:   38:    else if ( (side1 == side2) || (side2 == side3) || (side1 == side3) )
+        1:   39:        return ISOSCELES;       // Isosceles triangle
+        -:   40:    else
+        1:   41:        return SCALENE;       // Scalene triangle
+        -:   42:}
+        -:   43:
+        -:   44:
+        -:   45:

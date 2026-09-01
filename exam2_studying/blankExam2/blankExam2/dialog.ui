@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1255</width>
+    <height>944</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="titleLabel">
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Qt Exam 2 </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Directions</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:12pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;This exam is an INDIVIDUAL ASSIGNMENT !!!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Below are three different &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QGraphicsView&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; objects - one object per problem, each with its own &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QGraphicsScene&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; object (&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene2&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene3&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;- The origin of each scene object falls in the middle of each displayed scene.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;- The tick marks are spaced 100 pixels apart along the perimeter of each scene.  Each scene is 400 pixels x 300 pixels &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;DO NOT ALTER THE PROVIDED FORM&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#a40000;&quot;&gt;Step-by-step directions for each problem&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt; appear within the labeled problem tab&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;-  You may work the problems in any order.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;-  You may submit as many times as you want.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;-  I will grade your last submission since it should be the most complete and correct version of your code.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#a40000;&quot;&gt;Submission Directions&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;-  Access &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;Exam2&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; within Canvas&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;-  For &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;problem #1&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;, attach  &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;dialog.h&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;-  For&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt; problem #2&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;, attach  &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;dialog.cpp&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;NOTE:  The goal is for your code to behave the same as the provided sample solution. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Problem 1</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_2">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:12pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline;&quot;&gt;2D Static Graphics&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;           &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;NOTE:  The goal is for your code to behave the same as the provided sample solution. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(1)  Create a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QPixmap&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; object with dimensions &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;100 pixels x 100 pixels&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(2)  Fill the pixmap object with &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;Qt::darkMagenta&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; color  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(3)  Create a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QPainter&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; object for the pixmap object&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(4)  Set the painter object's pen to &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;Qt::white&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; color&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(5)  Use the painter object to add the text &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;UAH&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; to the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#ce5c00;&quot;&gt;CENTER&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; of the pixmap object.  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(6)  With the same pen color, use the painter object to add an &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;80 pixel x 80 pixel&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; rectangle &lt;/span&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#ce5c00;&quot;&gt;CENTERED&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; within the pixmap object&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(7)  Create a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QGraphicsPixmapItem&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; from the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QPixmap&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; object&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(8)  Add the pixmap item to the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#ce5c00;&quot;&gt;CENTER&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; of &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene1&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Problem 2</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_3">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:12pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline;&quot;&gt;Qt-SQL Interface&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;NOTE:  The goal is for your code to behave the same as the provided sample solution. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(1)  Configure a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QSqlDatabase&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; object to read from an &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;SQLite&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; database&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(2)  Assume that the absolute pathname  &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;/home/work/cpe353/exam2.db&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;  is the name of the database file&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(3)  Open the database file&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(4)  Use a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QSqlQuery&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; object and a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#a40000;&quot;&gt;loop&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; to retrieve each row from the file.  &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;      The table in the file was created using the following SQL statement where&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#a40000;&quot;&gt;      (X, Y)&lt;/span&gt; represents the &lt;span style=&quot; text-decoration: underline; color:#a40000;&quot;&gt;top left corner&lt;/span&gt; of a rectangle with width &lt;span style=&quot; color:#a40000;&quot;&gt;w&lt;/span&gt; and height &lt;span style=&quot; color:#a40000;&quot;&gt;h&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;CREATE TABLE blocks ( x INTEGER, y INTEGER, w INTEGER, h INTEGER );&lt;/span&gt;      &lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(5)  For each row of data retrieved from the table, use &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QGraphicsScene::addRect(  )&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;  to add the rectangle&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;      to the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene2&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; object &lt;/span&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#a40000;&quot;&gt;at the correct position&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; using the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QPen&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; color &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;Qt::white&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; and the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QBrush&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; color &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;Qt::blue&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;At grading time, additional rows may be added to the table.  Will your code still function correctly?&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;NOTE:  No Credit for Hardcoded Rectangle Dimensions!!!   Problem 2 is focused on the Qt-SQL interface.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;             Your code must retrieve a row from the table and immediately use the retrieved values to draw the item to receive credit.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Problem 3</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QTextBrowser" name="textBrowser_4">
+         <property name="html">
+          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:12pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline;&quot;&gt;Animated Clock Face&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;         &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;NOTE:  The goal is for your code to behave the same as the provided sample solution. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(1)  Create and configure the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#a40000;&quot;&gt;second hand&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Create a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QGraphicsRectItem&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; for the second hand with dimensions &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;80 pixels x 6 pixels&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Use the item's own relative coordinate system to place one end of the item at the origin of &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene3&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Use a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QBrush&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; set to &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;Qt::red&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Set the second hand object starting rotation to &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;-90 degrees&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Add the second hand object to &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene3&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;(2)  Create and configure the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#a40000;&quot;&gt;minute hand&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Create a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QGraphicsRectItem&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; for the minute hand with dimensions &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;90 pixels x 6 pixels&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Use the item's own relative coordinate system to place one end of the item at the origin of &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene3&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Use a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QBrush&lt;/span&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt; set to &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;Qt::green&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Set the minute hand object starting rotation to &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;-90 degrees&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;       - Add the minute hand object to &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;scene3&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;(3)  Create a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;QTimer&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; object that will invoke a &lt;/span&gt;&lt;span style=&quot; font-size:11pt; text-decoration: underline; color:#000000;&quot;&gt;custom slot function&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; every &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;50 milliseconds    &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;NOTE: our clock runs faster than real time&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;]&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;       Set the interval for the timer using the provided  &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;TIMER_INTERVAL &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; constant &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;(4)  Within the custom slot function , do the following     [quick check:  5 revolutions of second hand results in minute hand moving to the next blue tick]&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;       - Rotate the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;second hand&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; object by &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;6 degrees &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;on each timeout&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;       - Rotate the &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#0617f3;&quot;&gt;minute hand&lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt; object by &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#a40000;&quot;&gt;0.1 degrees &lt;/span&gt;&lt;span style=&quot; font-size:11pt; color:#000000;&quot;&gt;on each timeout&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QGraphicsView" name="graphicsView1"/>
+     </item>
+     <item>
+      <widget class="QGraphicsView" name="graphicsView2"/>
+     </item>
+     <item>
+      <widget class="QGraphicsView" name="graphicsView3"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

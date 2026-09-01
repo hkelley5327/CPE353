@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/pm0.png</file>
+        <file>images/pm1.png</file>
+        <file>images/pm2.png</file>
+        <file>images/pm3.png</file>
+        <file>images/pm4.png</file>
+        <file>images/pm5.png</file>
+        <file>images/pm6.png</file>
+        <file>images/pm7.png</file>
+        <file>images/pm8.png</file>
+        <file>images/pm9.png</file>
+    </qresource>
+</RCC>

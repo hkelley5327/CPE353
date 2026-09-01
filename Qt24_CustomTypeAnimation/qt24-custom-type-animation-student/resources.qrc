@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/tile0.png</file>
+        <file>images/tile1.png</file>
+        <file>images/tile2.png</file>
+        <file>images/tile3.png</file>
+        <file>images/tile4.png</file>
+        <file>images/tile5.png</file>
+        <file>images/tile6.png</file>
+        <file>images/tile7.png</file>
+        <file>images/tile8.png</file>
+        <file>images/tile9.png</file>
+        <file>images/tile10.png</file>
+        <file>images/tile11.png</file>
+        <file>images/tile12.png</file>
+        <file>images/tile13.png</file>
+        <file>images/tile14.png</file>
+        <file>images/tile15.png</file>
+        <file>images/tile16.png</file>
+        <file>images/tile17.png</file>
+        <file>images/tile18.png</file>
+        <file>images/tile19.png</file>
+        <file>images/tile20.png</file>
+        <file>images/tile21.png</file>
+        <file>images/tile22.png</file>
+        <file>images/tile23.png</file>
+        <file>images/tile24.png</file>
+        <file>images/tile25.png</file>
+        <file>images/tile26.png</file>
+        <file>images/tile27.png</file>
+        <file>images/tile28.png</file>
+        <file>images/tile29.png</file>
+        <file>images/tile30.png</file>
+        <file>images/tile31.png</file>
+        <file>images/tile32.png</file>
+        <file>images/tile33.png</file>
+        <file>images/tile34.png</file>
+        <file>images/tile35.png</file>
+    </qresource>
+</RCC>
